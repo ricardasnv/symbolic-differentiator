@@ -20,8 +20,7 @@
 (define (same-var? expr var)
   (and (atom? expr) (eq? expr var)))
 
-;(define (constant? expr var)
-;  (and (atom? expr) (not (eq? expr var))))
+; CDR down the expression and return true if it doesn't contain the free variable
 (define (constant? expr var)
   (cond
     ((atom? expr) (if (eq? expr var) #f #t))
