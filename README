@@ -1,0 +1,7 @@
+SYMBOLIC DIFFERENTIATOR
+
+Differentiates symbolic expressions w.r.t. any symbol. Inspired by SICP lecture 3B.
+
+Dependencies: bigloo, GNU make.
+Run make to build.
+
